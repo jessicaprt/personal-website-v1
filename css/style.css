@@ -1,0 +1,97 @@
+@import 'https://fonts.googleapis.com/css?family=Dancing Script';
+
+body {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.sections {
+	height: 100vh;
+}
+
+.cover {
+	background-image: url(../images/cover.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+
+.gradient-overlay{
+	background: -webkit-linear-gradient(left top, rgba(95,105,141, 0.85), rgba(195,123,173,0.85));
+  background: -o-linear-gradient(left top, rgba(95,105,141, 0.85), rgba(195,123,173,0.85));
+  background: -moz-linear-gradient(left top, rgba(95,105,141, 0.85), rgba(195,123,173,0.85));
+  background: linear-gradient(left top, rgba(95,105,141, 0.85), rgba(195,123,173,0.85)); /* Standard syntax */
+}
+
+div.container-fluid.s {
+	margin-top: 20px;
+	background-color: rgba(0,0,0,0) !important;
+}
+
+.icon-bar {
+	background-color: rgba(255,255,255,0.7);
+}
+
+.navbar li a {
+	font-size: 1.7em;
+	color: rgba(255,255,255,0.8) !important;
+	text-align: right;
+}
+
+.navbar li a:hover {
+	background-color: rgba(0,0,0,0) !important;
+}
+
+#myNavbar {
+	margin-left: 75%;
+}
+
+.name {
+	margin-top: 20%;
+	text-align: center;
+	color: rgba(255,255,255,0.82);
+}
+
+.name h1 {
+	font-size: 7em;
+	
+	font-family: "Century", Century, serif;
+}
+
+.name p {
+	font-size: 2em;
+}
+
+/* ABOUT SECTION */
+
+.about .row {
+	width: 100%;
+}
+
+.prpl-box {
+	height: 110vh;
+	background-color: rgb(73,64,87);
+	margin-left: 20%;
+	padding-top: 30%;
+}
+
+.inner-box-disp {
+	margin: 0% 16% 0% 8%;;
+	border: 4.3px solid rgb(137, 120, 163);
+	height: 40%;
+	z-index: 1;
+	position: relative;	
+}
+
+.inner-box-disp h1 {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: rgba(255,255,255,0.8);
+	font-size: 8em;
+	margin-left: 16%
+}
+
+.inner-box-disp h2 {
+	font-family: "Dancing Script", sans-serif;
+	color: rgba(209, 193, 207, 1);
+	font-size: 13em;
+	margin-top: -25%;
+	margin-left: 55%
+}
