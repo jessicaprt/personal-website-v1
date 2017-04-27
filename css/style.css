@@ -62,12 +62,9 @@ div.container-fluid.s {
 
 /* ABOUT SECTION */
 
-.abt-items {
-	margin: 0 0auto;
-}
-
 .about .row {
 	width: 100%;
+	margin: 0 auto;
 }
 
 .prpl-box {
