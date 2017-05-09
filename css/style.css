@@ -41,7 +41,7 @@ div.container-fluid.s {
 }
 
 #myNavbar {
-	margin-left: 75%;
+	margin-left: 60%;
 }
 
 .name {
@@ -75,7 +75,7 @@ div.container-fluid.s {
 }
 
 .inner-box-disp {
-	margin: 0% 16% 0% 8%;;
+	margin: 0 8rem 0 3rem;
 	border: 4.3px solid rgb(137, 120, 163);
 	height: 40%;
 	z-index: 1;
@@ -85,8 +85,8 @@ div.container-fluid.s {
 .inner-box-disp h1 {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	color: rgba(255,255,255,0.8);
-	font-size: 8rem;
-	margin-left: 16%
+	font-size: 5.6rem;
+	margin-left: 20%
 }
 
 .inner-box-disp h2 {
@@ -94,7 +94,7 @@ div.container-fluid.s {
 	color: rgba(209, 193, 207, 1);
 	font-size: 13rem;
 	margin-top: -25%;
-	margin-left: 55%
+	margin-left: 7.6rem;
 }
 
 .abt-sec {
