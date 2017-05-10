@@ -52,7 +52,6 @@ div.container-fluid.s {
 
 .name h1 {
 	font-size: 7em;
-	
 	font-family: "Century", Century, serif;
 }
 
@@ -75,26 +74,29 @@ div.container-fluid.s {
 }
 
 .inner-box-disp {
-	margin: 0 8rem 0 3rem;
-	border: 4.3px solid rgb(137, 120, 163);
+	margin-left: 10%;
+	border: 8px solid rgba(137, 120, 163, 0.6);
 	height: 40%;
-	z-index: 1;
-	position: relative;	
+	width: 30%;
+	z-index: 0;
+	position: absolute;	
 }
 
-.inner-box-disp h1 {
+.prpl-box h1 {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	color: rgba(255,255,255,0.8);
-	font-size: 5.6rem;
-	margin-left: 20%
+	font-size: 6rem;
+	margin-left: 5rem;
+	position: relative;
 }
 
-.inner-box-disp h2 {
+.prpl-box h2 {
 	font-family: "Dancing Script", sans-serif;
 	color: rgba(209, 193, 207, 1);
 	font-size: 13rem;
-	margin-top: -25%;
 	margin-left: 7.6rem;
+	margin-top: -10%;
+	position: absolute;
 }
 
 .abt-sec {
