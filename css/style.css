@@ -134,9 +134,11 @@ div.container-fluid.s {
 
 .portfolio {
 	background-color: rgba(73,64,87,0.2);
+	height: 100vh;
 	background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
 	opacity: 0.5;
-	height: 100vh;
+	filter: alpha(Opacity=90);
+	opacity: 0.9;
 }
 
 .p-prpl-box {
@@ -149,9 +151,36 @@ div.container-fluid.s {
 	padding-left: 3vmin;
 }
 
-.p-prpl-box h1{
+.p-prpl-box h1 {
 	color: rgb(255, 255, 255);
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 8vmin;
 	overflow: hidden;
+}
+
+.portfolio .row.container {
+	left: 50%;
+	margin: auto;
+	width: 80vmax;
+}
+
+.portfolio .row.container .col-md-3 {
+	margin: 0 auto;
+	width: 50rem;
+	height: 40vmin;
+	border : 10px solid #fff;
+}
+
+.pr-imgs {
+	margin-top: 13em !important;
+}
+
+#snake {
+	background-image: url(../images/hm-portfolio/snake.jpg);
+	background-size: cover;
+}
+
+#blgs {
+	background-image: url(../images/hm-portfolio/BLGS2.jpg);
+	background-size: cover;
 }
