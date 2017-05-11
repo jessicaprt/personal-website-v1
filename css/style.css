@@ -4,7 +4,7 @@ body {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-.sections {
+.full {
 	height: 100vh;
 }
 
@@ -12,6 +12,7 @@ body {
 	background-image: url(../images/cover.jpg);
 	background-size: cover;
 	overflow: hidden;
+	height: 100vh;
 }
 
 .gradient-overlay{
@@ -51,12 +52,12 @@ div.container-fluid.s {
 }
 
 .name h1 {
-	font-size: 7em;
+	font-size: 10vmin;
 	font-family: "Century", Century, serif;
 }
 
 .name p {
-	font-size: 2em;
+	font-size: 3.5vh;
 }
 
 /* ABOUT SECTION */
@@ -64,18 +65,19 @@ div.container-fluid.s {
 .about .row {
 	width: 100%;
 	margin: 0 auto;
+	margin-bottom: 13rem;
 }
 
 .prpl-box {
-	height: 110vh;
-	background-color: rgb(73,64,87);
-	margin-left: 20%;
+	height: 55vh;
+	background-color: rgba(137, 120, 163, 0.6);
 	padding-top: 30%;
+	width: 93%;
 }
 
 .inner-box-disp {
 	margin-left: 10%;
-	border: 8px solid rgba(137, 120, 163, 0.6);
+	border: 8px solid rgba(137, 120, 163, 0.5);
 	height: 40%;
 	width: 30%;
 	z-index: 0;
@@ -84,26 +86,72 @@ div.container-fluid.s {
 
 .prpl-box h1 {
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	color: rgba(255,255,255,0.8);
-	font-size: 6rem;
-	margin-left: 5rem;
+	color: rgba(73,64,87, 0.9);
+	font-size: 8vmin;
+	margin-left: 3rem;
 	position: relative;
 }
 
 .prpl-box h2 {
 	font-family: "Dancing Script", sans-serif;
-	color: rgba(209, 193, 207, 1);
-	font-size: 13rem;
+	color: rgba(255, 255, 255, 1);
+	font-size: 12vmin;
 	margin-left: 7.6rem;
-	margin-top: -10%;
+	margin-top: -5vmin;
 	position: absolute;
 }
 
 .abt-sec {
-	text-align: center;
+	text-align: left;
+	padding: 0 6rem !important;
 }
 
 .abt-sec img {
-	margin-top: 35%;
-	width: 25%;
+	margin-top: 6em;
+	width: 7.6rem;
+}
+
+.abt-sec p {
+	font-size: 1em;
+}
+
+.abt-btn {
+	padding: 0.3em 1.2em;
+	background-color: rgba(0,0,0,0);
+	border: 2px solid rgba(73,64,87,0.5);
+	border-radius: 0.6em;
+	color: rgba(73,64,87,09);
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.2em;
+	position: absolute;
+	margin-top: 1em;
+}
+
+.abt-sec.col-md-3 {
+	padding-left: 1% !important;
+	padding-right: 1% !important;
+}
+
+.portfolio {
+	background-color: rgba(73,64,87,0.2);
+	background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+	opacity: 0.5;
+	height: 100vh;
+}
+
+.p-prpl-box {
+	height: 19vmin;
+	background-color: rgba(73,64,87, 1);
+	width: 60vw;
+	margin-right: 0;
+	position: absolute;
+	margin-top: -5rem;
+	padding-left: 3vmin;
+}
+
+.p-prpl-box h1{
+	color: rgb(255, 255, 255);
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 8vmin;
+	overflow: hidden;
 }

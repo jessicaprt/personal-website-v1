@@ -6,7 +6,7 @@ $(document).ready(function() {
 	console.log($("#box").offset().top);
 
 	$(window).scroll(function() {
-		if ($(this).scrollTop() > y*0.6) {
+		if ($(this).scrollTop() > y*0.3) {
 			$(".inner-box-disp").fadeIn(500);
 			$(".i-h1").fadeIn(1500);
 			$(".i-h2").fadeIn(2000);
