@@ -11,7 +11,56 @@ $(document).ready(function() {
 			$(".i-h1").fadeIn(1500);
 			$(".i-h2").fadeIn(2000);
 		}
-	});	
+	});
+	
+	$('#p-1').mouseenter(function() {
+		$('#p-desc-1').animate({
+			height: '+=10rem',
+			width: '+=2rem'
+		});
+		$('#pd1-hidden').show();
+	});
+	
+	$('#p-1').mouseleave(function() {
+		$('#pd1-hidden').hide("slow");
+		$('#p-desc-1').animate({
+			height: '-=10rem',
+			width: '-=2rem'
+		});
+	});
+	
+	$('#p-2').mouseenter(function() {
+		$('#p-desc-2').animate({
+			height: '+=10rem',
+			width: '+=2rem'
+		});
+		$('#pd2-hidden').show();
+	});
+	
+	$('#p-2').mouseleave(function() {
+		$('#pd2-hidden').hide("slow");
+		$('#p-desc-2').animate({
+			height: '-=10rem',
+			width: '-=2rem'
+		});
+	});
+	
+	$('#p-3').mouseenter(function() {
+		$('#p-desc-3').animate({
+			height: '+=10rem',
+			width: '+=2rem'
+		});
+		$('#pd3-hidden').show();
+	});
+	
+	$('#p-3').mouseleave(function() {
+		$('#pd3-hidden').hide("slow");
+		$('#p-desc-3').animate({
+			height: '-=10rem',
+			width: '-=2rem'
+		});
+	});
+	
 });
 
 $(function() {

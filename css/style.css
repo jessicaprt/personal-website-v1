@@ -187,6 +187,9 @@ div.container-fluid.s {
 .portfolio .row.container .col-md-4 {
 	margin: 0 auto;
 	margin-top: 15em !important;
+}
+
+.p-imgs {
 	position: relative;
 }
 
@@ -197,10 +200,12 @@ div.container-fluid.s {
 
 .p-desc {
 	height: 2.3em;
+	width: 30rem;
 	margin-top: -2.3em;
 	font-size: 1.5em;
 	position: absolute;
 	right: 1.5rem;
+	bottom: 0;
 	padding-top: 1rem;
 	padding-left: 1.5rem;
 	padding-right: 3rem;
@@ -211,6 +216,10 @@ div.container-fluid.s {
 .more-prj {
 	margin-top: 3rem !important;
 	padding-bottom: 13rem;
+}
+
+.pd-hidden {
+	font-size: 1.5rem;
 }
 
 .p-btn {
