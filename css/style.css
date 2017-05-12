@@ -1,7 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Dancing Script';
 
 body {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
 }
 
 .full {
@@ -74,23 +74,22 @@ div.container-fluid.s {
 
 .prpl-box {
 	height: 55vh;
-	background-color: rgba(137, 120, 163, 0.6);
-	padding-top: 30%;
-	width: 93%;
+	background-color: rgba(73,64,87, 0.9);
+	padding-top: 2rem;;
+	width: 33vmin;
 }
 
 .inner-box-disp {
-	margin-left: 10%;
+	margin-left: 2vmin;
 	border: 8px solid rgba(137, 120, 163, 0.5);
-	height: 40%;
-	width: 30%;
+	height: 30%;
+	width: 22vmin;
 	z-index: 0;
 	position: absolute;	
 }
 
 .prpl-box h1 {
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	color: rgba(73,64,87, 0.9);
+	color: rgba(255, 255, 255,1);
 	font-size: 8vmin;
 	margin-left: 3rem;
 	position: relative;
@@ -98,10 +97,10 @@ div.container-fluid.s {
 
 .prpl-box h2 {
 	font-family: "Dancing Script", sans-serif;
-	color: rgba(255, 255, 255, 1);
+	color: rgba(255,255,255,0.7);
 	font-size: 12vmin;
-	margin-left: 7.6rem;
-	margin-top: -5vmin;
+	margin-left: 10vmin;
+	margin-top: -6vmin;
 	position: absolute;
 }
 
@@ -125,7 +124,6 @@ div.container-fluid.s {
 	border: 2px solid rgba(73,64,87,0.5);
 	border-radius: 0.6em;
 	color: rgba(73,64,87,0.9);
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 1.2em;
 	position: absolute;
 	margin-top: 1em;
@@ -147,30 +145,28 @@ div.container-fluid.s {
 .p-prpl-box {
 	height: 19vmin;
 	background-color: rgba(73,64,87, 1);
-	width: 60vw;
+	width: 55vw;
 	margin-right: 0;
 	position: absolute;
 	margin-top: -5rem;
+	margin-left: 40vw;
 	padding-left: 3vmin;
 }
 
 .p-prpl-box h1 {
 	color: rgb(255, 255, 255);
-	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	font-size: 8vmin;
-	overflow: hidden;
 }
 
 .portfolio .row.container {
 	left: 50%;
 	margin: auto;
 	width: 80vmax;
-	padding: 1rem !important;
+	padding: 3rem !important;
 }
 
-.portfolio .row.container .col-md-3 {
+.portfolio .row.container .col-md-4 {
 	margin: 0 auto;
-	width: 1rem;
 	margin-top: 15em !important;
 	margin-bottom: 13em !important;
 	padding-left: 1% !important;
@@ -180,3 +176,58 @@ div.container-fluid.s {
 .pr-imgs img {
 	width: 100%;
 }
+
+.contact {
+	height: 100vh;
+}
+
+.c-prpl-box {
+	margin-top: 2%;
+	height: 20vmin;
+	width: 70vw;
+	background-color: rgba(73,64,87, 1);
+}
+
+.c-prpl-box .c-h1-1 {
+	font-family: "Dancing Script", sans-serif;
+	margin-left: 5%;
+	top: 1rem;
+	color: rgb(255, 255, 255);
+	font-size: 8vmin;
+	overflow: hidden;
+	z-index: 1;
+	position: relative;
+}
+
+.c-prpl-box .c-h1-2 {
+	margin-left: 9%;
+	top: 2rem;
+	color: rgb(255, 255, 255);
+	font-size: 6.5vmin;
+	overflow: hidden;
+	z-index: 1;
+	position: relative;
+}
+
+.c-prpl-box h1 {
+	margin-top: 3rem;
+	margin-bottom: -4.5rem;
+	display: block;
+}
+
+.c-prpl-box .c-inner-box {
+	height: 8vmin;
+	width: 26vmax;
+	border: 5px solid rgba(137, 120, 163, 0.4);
+	position: relative;
+	margin-left: 12%;
+	margin-right: 15%;
+	margin-top: -5vmin;
+	z-index: 0;
+}
+
+
+/*
+dark purple: rgba(73,64,87, 1);
+light purple: rgba(73,64,87, 1);
+*/
