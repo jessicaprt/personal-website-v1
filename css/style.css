@@ -169,22 +169,16 @@ div.container-fluid.s {
 	margin: 0 auto;
 	margin-top: 15em !important;
 	margin-bottom: 13em !important;
-	padding-left: 1% !important;
-	padding-right: 1% !important;
 }
 
 .pr-imgs img {
 	width: 100%;
 }
 
-.contact {
-	height: 100vh;
-}
-
 .c-prpl-box {
 	margin-top: 2%;
 	height: 20vmin;
-	width: 70vw;
+	width: 55vw;
 	background-color: rgba(73,64,87, 1);
 }
 
@@ -192,7 +186,7 @@ div.container-fluid.s {
 	font-family: "Dancing Script", sans-serif;
 	margin-left: 5%;
 	top: 1rem;
-	color: rgb(255, 255, 255);
+	color: rgba(255, 255, 255, 0.7);
 	font-size: 8vmin;
 	overflow: hidden;
 	z-index: 1;
@@ -217,15 +211,49 @@ div.container-fluid.s {
 
 .c-prpl-box .c-inner-box {
 	height: 8vmin;
-	width: 26vmax;
+	width: 13vmax;
 	border: 5px solid rgba(137, 120, 163, 0.4);
 	position: relative;
-	margin-left: 12%;
+	margin-left: 2%;
 	margin-right: 15%;
-	margin-top: -5vmin;
+	margin-top: -10vmin;
 	z-index: 0;
 }
 
+.img-links {
+	overflow: hidden;
+}
+
+.img-links img {
+	width: 20vh;
+	padding: 2vh;
+}
+
+.contact .row {
+	width: 80vw !important;
+	margin: 3rem auto;
+}
+
+.contact .row .col-md-6 p {
+	font-size: 1.7rem;
+	margin-left: 1rem;
+}
+
+.border {
+	width: 93vw;
+	height: 2px;
+	margin: 2rem auto;
+	background-color: rgba(73,64,87, 0.4);
+}
+
+footer {
+	margin-top: 10rem;
+	margin-bottom: 2rem;
+	font-size: 1.7rem;
+	text-align: center;
+	color: rgba(73,64,87, 0.8);
+	color: rgba(73,64,87, 0.8);
+}
 
 /*
 dark purple: rgba(73,64,87, 1);
