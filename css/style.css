@@ -169,10 +169,25 @@ div.container-fluid.s {
 	margin: 0 auto;
 	margin-top: 15em !important;
 	margin-bottom: 13em !important;
+	position: relative;
 }
 
 .pr-imgs img {
 	width: 100%;
+	border: 1.3rem solid rgba(73,64,87, 1);
+}
+
+.p-desc {
+	height: 2.3em;
+	margin-top: -2.3em;
+	font-size: 1.5em;
+	position: absolute;
+	right: 1.5rem;
+	padding-top: 1rem;
+	padding-left: 1.5rem;
+	padding-right: 3rem;
+	background-color: rgba(73,64,87, 1);
+	color: #ece3ec
 }
 
 .c-prpl-box {
@@ -257,5 +272,5 @@ footer {
 
 /*
 dark purple: rgba(73,64,87, 1);
-light purple: rgba(73,64,87, 1);
+light purple: rgba(137, 120, 163, 0.4);
 */
